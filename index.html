@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-10-year-range.min.js"></script>
     <title>World Clock - Jenni Salmi</title>
   </head>
   <body>
@@ -17,26 +19,36 @@
         <option value="">Auckland</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="los-angeles">
         <div>
           <h2>Los Angeles 🇺🇸</h2>
-          <div class="date">June 27th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">
-          09:57
-          <small> AM </small>
-        </div>
+        <div class="time"></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="paris">
         <div>
           <h2>Paris 🇫🇷</h2>
-          <div class="date">June 27th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">
-          09:57
-          <small> AM </small>
+        <div class="time"></div>
+      </div>
+
+      <div class="city" id="singapore">
+        <div>
+          <h2>Singapore 🇸🇬</h2>
+          <div class="date"></div>
         </div>
+        <div class="time"></div>
+      </div>
+
+      <div class="city" id="buenos-aires">
+        <div>
+          <h2>Buenos Aires 🇦🇷</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"></div>
       </div>
     </div>
     <br />
